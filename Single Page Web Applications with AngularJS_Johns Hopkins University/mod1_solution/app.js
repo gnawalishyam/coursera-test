@@ -7,7 +7,7 @@ LunchCheckController.$inject = ['$scope'];
 function LunchCheckController($scope){
 	$scope.message = "Please enter data first";
 		$scope.CheckIfEnough = function(){
-			if($scope.lunchsets == null || $scope.lunchsets == "") {
+			if($scope.lunchsets == null || $scope.lunchsets == "") { 
 				$scope.message = "Please enter data first";
 			}
 			else {
